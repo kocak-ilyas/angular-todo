@@ -1,3 +1,9 @@
 <app-header></app-header>
+<ul *ngIf="todos.length > 0; else noTodos">
+    listeee
+    <hr />
+    <li *ngFor="let todo of todos">{{ todo }}</li>
+</ul>
+<ng-template #noTodos> iş Yok </ng-template>
 <router-outlet> welcomeee {{ title }}</router-outlet>
 <app-footer></app-footer>

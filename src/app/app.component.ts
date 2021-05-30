@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-appxxxxxx';
+  todos = [
+    "is1",
+    "is2",
+    "is3",
+    "is4",
+    "is55"
+  ]
 }
